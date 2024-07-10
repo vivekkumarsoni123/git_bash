@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    padding-left: 5% ;
+    padding-right: 5%;
+    justify-content: space-between;
+    
+}
+
+.NetFlix-Logo 
+{
+    height: 70px;
+    width: 20%;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-img
+{
+    height: 80%;
+}
+
+.search-box 
+{
+    height: 70px;
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
+.search-bar
+{
+    width: 70%;
+    height: 40px;
+    /* color: blue; */
+    text-indent: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    
+}
+
+.search-icon
+{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 40px;
+    width: 20%;
+}
+
+
+
+/* Movies-container */
+
+.Movies
+{
+    width: 100%;
+    padding: 50px 5%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6.66%;
+    row-gap: 30px;
+}
+
+.movie
+{
+    width: 20%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.poster
+{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100% ;
+    background-color: red;
+    position: absolute;
+    opacity: 0;
+    transition: .3;
+    cursor: pointer;
+}
+
+.overlay:hover
+{
+    opacity: 0.8;
+}
+
+.videos
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+}
+
+.details 
+{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+
